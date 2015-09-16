@@ -283,44 +283,80 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.en.resx" />
-    <EmbeddedResource Include="Properties\Resources.ko-KR.resx" />
-    <EmbeddedResource Include="Properties\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Translation\Equipment\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Equipment\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Properties\Resources.en.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ko-KR.resx">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-CN.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Equipment\Resources.en.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Equipment\Resources.ko-KR.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Translation\Equipment\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Equipment\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Translation\Expedition\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Expedition\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Equipment\Resources.zh-CN.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Expedition\Resources.en.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Expedition\Resources.ko-KR.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Translation\Expedition\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Expedition\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Translation\Quests\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Quests\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Expedition\Resources.zh-CN.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Quests\Resources.en.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Quests\Resources.ko-KR.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Translation\Quests\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Quests\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Translation\Maps\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Maps\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Quests\Resources.zh-CN.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Maps\Resources.en.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Maps\Resources.ko-KR.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Translation\Maps\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Maps\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Translation\Ships\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Ships\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Maps\Resources.zh-CN.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Ships\Resources.en.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Ships\Resources.ko-KR.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Translation\Ships\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Ships\Resources.zh-CN.resx" />
+    <EmbeddedResource Include="Translation\Ships\Resources.zh-CN.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
