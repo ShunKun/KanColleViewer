@@ -410,13 +410,29 @@
                                         </ItemsControl.Template>
                                         <ItemsControl.ItemTemplate>
                                             <DataTemplate>
-                                                <Border x:Name="Elements"
+												<Grid x:Name="Elements"
 														ToolTip="{Binding Item.NameWithLevel}"
 														Background="Transparent">
                                                     <kcvc:SlotItemIcon Type="{Binding Item.Info.IconType}"
 																	   Margin="3,0" />
-                                                </Border>
-                                                <DataTemplate.Triggers>
+                                                    <TextBlock x:Name="ItemLevelBlock" 
+                                                               Text="{Binding Item.LevelText}" 
+                                                               Foreground="#FF45A9A5" Background="#33000000" 
+                                                               FontSize="11"
+                                                               VerticalAlignment="Bottom" 
+                                                               HorizontalAlignment="Right" 
+                                                               Panel.ZIndex="1" 
+                                                               Width="Auto"
+                                                               Height="Auto"
+                                                               Padding="1"/>
+												</Grid>
+												<DataTemplate.Triggers>
+                                                    <DataTrigger Binding="{Binding Item.LevelText}"
+                                                                 Value="">
+                                                        <Setter TargetName="ItemLevelBlock" 
+                                                                Property="Visibility" 
+                                                                Value="Collapsed" />
+                                                    </DataTrigger>
                                                     <DataTrigger Binding="{Binding Equipped}"
 																 Value="False">
                                                         <Setter TargetName="Elements"
