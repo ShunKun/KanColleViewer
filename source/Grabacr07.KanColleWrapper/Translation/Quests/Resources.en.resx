@@ -1168,10 +1168,10 @@
   <data name="観艦式予行を実施せよ_Detail" xml:space="preserve">
     <value>Complete Expedition 7 twice</value>
   </data>
-  <data name="資源の再利用(その弐)" xml:space="preserve">
+  <data name="資源の再利用" xml:space="preserve">
     <value>Recycling Resources (Part II)</value>
   </data>
-  <data name="資源の再利用(その弐)_Detail" xml:space="preserve">
+  <data name="資源の再利用_Detail" xml:space="preserve">
     <value>Scrap equipment 24 times</value>
   </data>
   <data name="軍縮条約対応" xml:space="preserve">
@@ -1221,5 +1221,65 @@
   </data>
   <data name="防空射撃演習を実施せよ_Detail" xml:space="preserve">
     <value>Complete Expedition 6 three times</value>
+  </data>
+  <data name="空母機動部隊_北方海域に進出せよ" xml:space="preserve">
+    <value>"Carrier Task Force", advance to the Northern Sea!</value>
+  </data>
+  <data name="空母機動部隊_北方海域に進出せよ_Detail" xml:space="preserve">
+    <value>Sortie a fleet with an aircraft carrier (Taihou counts) as flagship to World 3-5 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="精鋭艦隊演習" xml:space="preserve">
+    <value>Elite Fleet Practice</value>
+  </data>
+  <data name="精鋭艦隊演習_Detail" xml:space="preserve">
+    <value>Get 7 victories in Exercises within the same day</value>
+  </data>
+  <data name="鎮守府正面の対潜哨戒を強化せよ" xml:space="preserve">
+    <value>Strengthen the Anti-Submarine Patrol in Front of the Naval Base!</value>
+  </data>
+  <data name="鎮守府正面の対潜哨戒を強化せよ_Detail" xml:space="preserve">
+    <value>Sortie to World 1-5 and obtain four A-Ranks (or better) at the boss.</value>
+  </data>
+  <data name="第十六戦隊(第一次)_を編成せよ" xml:space="preserve">
+    <value>Organize the 16th Squadron (First Generation)</value>
+  </data>
+  <data name="第十六戦隊(第一次)_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Ashigara as flagship with Kuma and Nagara in your main fleet</value>
+  </data>
+  <data name="第十六戦隊(第一次)_出撃せよ" xml:space="preserve">
+    <value>Sortie the 16th Squadron (First Generation)</value>
+  </data>
+  <data name="第十六戦隊(第一次)_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Ashigara as flagship, Kuma, Nagara and up to 3 additional ships to World 2-2 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="新編_第二一戦隊_出撃準備" xml:space="preserve">
+    <value>Prepare the New 21st Squadron for Sortie</value>
+  </data>
+  <data name="新編_第二一戦隊_出撃準備_Detail" xml:space="preserve">
+    <value>Have Nachi(Kai-2), Ashigara(Kai-2), Tama and Kiso in your main fleet</value>
+  </data>
+  <data name="新編_第二一戦隊_北方へ出撃せよ" xml:space="preserve">
+    <value>Sortie the New 21st Squadron to the North</value>
+  </data>
+  <data name="新編_第二一戦隊_北方へ出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Nachi(Kai-2), Ashigara(Kai-2), Tama, Kiso and up to 2 additional ships to World 3-1 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="機動部隊の運用を強化せよ" xml:space="preserve">
+    <value>Enhance the Use of the Task Force</value>
+  </data>
+  <data name="機動部隊の運用を強化せよ_Detail" xml:space="preserve">
+    <value>Complete Expeditions 35 and 26</value>
+  </data>
+  <data name="第五航空戦隊_を再編成せよ" xml:space="preserve">
+    <value>Reorganize the 5th Carrier Division</value>
+  </data>
+  <data name="第五航空戦隊_を再編成せよ_Detail" xml:space="preserve">
+    <value>Have Shoukaku, Zuikaku, Oboro and Akigumo in your main fleet</value>
+  </data>
+  <data name="第五航空戦隊_珊瑚諸島沖に出撃せよ" xml:space="preserve">
+    <value>Sortie the 5th Carrier Division to the Southern Sea Coral Islands</value>
+  </data>
+  <data name="第五航空戦隊_珊瑚諸島沖に出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Shoukaku, Zuikaku, Oboro, Akigumo and up to 2 additional ships to World 5-2 and obtain an S-Rank at the boss</value>
   </data>
 </root>
