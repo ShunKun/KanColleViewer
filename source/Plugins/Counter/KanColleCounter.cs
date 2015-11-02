@@ -33,9 +33,13 @@ namespace Counter
 			{
 				Counters = new ObservableCollection<CounterBase>
 				{
-					new SupplyCounter(KanColleClient.Current.Proxy),
 					new ItemDestroyCounter(KanColleClient.Current.Proxy),
-					new MissionCounter(KanColleClient.Current.Proxy),
+                    new NyukyoCounter(KanColleClient.Current.Proxy),
+                    new SupplyCounter(KanColleClient.Current.Proxy),
+                    new KaisouCounter(KanColleClient.Current.Proxy),
+                    new MissionCounter(KanColleClient.Current.Proxy),
+                    new BattleWinCounter(KanColleClient.Current.Proxy),
+                    new EtcCounter(),
 				}
 			};
 		}
