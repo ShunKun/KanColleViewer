@@ -228,7 +228,7 @@
 																	</Style>
 																</TextBlock.Style>
 															</TextBlock>
-															<TextBlock Width="53"
+															<!--<TextBlock Width="53"
 																	   Margin="0,4">
 																<TextBlock.Style>
 																	<Style TargetType="{x:Type TextBlock}">
@@ -254,7 +254,38 @@
 																		</Style.Triggers>
 																	</Style>
 																</TextBlock.Style>
-															</TextBlock>
+															</TextBlock>-->
+															<Viewbox Width="53" Height="12pt" >
+																<kcvc:AircraftProficiencyIcon Level="{Binding CounterKey.Adept}"/>
+																<Viewbox.ToolTip>
+																	<TextBlock>
+																		<TextBlock.Style>
+																			<Style TargetType="{x:Type TextBlock}">
+																				<Setter Property="Text"
+																						Value="{Binding CounterKey.Adept, StringFormat=+{0}}" />
+																				<Setter Property="Foreground"
+																						Value="#FFD49C0F" />
+																				<Setter Property="Opacity"
+																						Value="1.0" />
+																				<Style.Triggers>
+																					<DataTrigger Binding="{Binding CounterKey.Adept}"
+																								 Value="0">
+																						<Setter Property="Foreground"
+																								Value="{DynamicResource InactiveForegroundBrushKey}" />
+																						<Setter Property="Opacity"
+																								Value=".5" />
+																					</DataTrigger>
+																					<DataTrigger Binding="{Binding CounterKey.Adept, Converter={StaticResource RangeToBooleanConverter}, ConverterParameter=1-3}"
+																								 Value="True">
+																						<Setter Property="Foreground"
+																								Value="#FF98B3CE" />
+																					</DataTrigger>
+																				</Style.Triggers>
+																			</Style>
+																		</TextBlock.Style>
+																	</TextBlock>
+																</Viewbox.ToolTip>
+															</Viewbox>
 															<TextBlock Width="83"
 																	   Margin="0,4">
 																<Run Text="{Binding Count, Mode=OneWay}"
